@@ -13,11 +13,21 @@
     --foreground: #ededed;
   }
 }
-
+* {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  
+}
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: #f3f4f6;
   font-family: Arial, Helvetica, sans-serif;
+}
+.header-menu{
+  background-color: #f5f8f7;
+}
+.signup-button{
+  background-color: #04184d;
 }
 
 @layer utilities {
