@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 export const Biology = () => {
   return (
     <div className="container mx-auto p-4 ">

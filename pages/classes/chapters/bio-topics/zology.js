@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 export const Zoology = () => {
   return (
     <div className="container mx-auto p-4 text-center">
