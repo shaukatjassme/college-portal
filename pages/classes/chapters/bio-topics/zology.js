@@ -3,7 +3,7 @@ import React from 'react';
 export const Zoology = () => {
   return (
     <div className="container mx-auto p-4 text-center">
-      <h1 className="text-2xl font-bold mb-6">Zoology</h1>
+      <h1 className="text-2xl font-bold mb-7">Zoology</h1>
 
       {/* Video Player */}
       <div className="flex justify-center mb-6">
