@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-console": "off",  // Turns off no-console rule
+    "react/prop-types": "off",  // Disables prop-types check
+    "@next/next/no-img-element": "off"  // Disables no-img-element rule
+  }
 }
